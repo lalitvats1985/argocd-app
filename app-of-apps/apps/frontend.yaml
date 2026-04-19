@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/lalitvats1985/argocd-app.git
     targetRevision: master
-    path: frontend   # 👈 points to frontend folder
+    path: app-of-apps/frontend   # 👈 points to frontend folder
   destination:
     server: https://kubernetes.default.svc
     namespace: default
