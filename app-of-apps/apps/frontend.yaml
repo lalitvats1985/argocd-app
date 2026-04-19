@@ -10,7 +10,7 @@ spec:
     targetRevision: master
     path: frontend   # 👈 points to frontend folder
   destination:
-    server: http://34.180.41.88
+    server: https://34.180.41.88
     namespace: default
   syncPolicy:
     automated:
