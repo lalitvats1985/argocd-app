@@ -10,7 +10,7 @@ spec:
     targetRevision: master
     path: frontend   # 👈 points to frontend folder
   destination:
-    server: https://34.180.41.88
+    server: https://kubernetes.default.svc
     namespace: default
   syncPolicy:
     automated:
