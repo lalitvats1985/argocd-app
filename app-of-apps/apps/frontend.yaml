@@ -4,13 +4,13 @@ metadata:
   name: frontend
   namespace: argocd
 spec:
-  project: default
+  project: app-of-apps
   source:
-    repoURL: https://github.com/<your-username>/argocd-app-of-apps.git
-    targetRevision: HEAD
+    repoURL: https://github.com/lalitvats1985/argocd-app.git
+    targetRevision: master
     path: frontend   # 👈 points to frontend folder
   destination:
-    server: https://kubernetes.default.svc
+    server: http://34.180.41.88
     namespace: default
   syncPolicy:
     automated:
